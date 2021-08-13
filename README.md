@@ -8,5 +8,5 @@ To use the tutorials:
 - Create an environment locally from ATOC_4500_env.txt with the following command: <br>
   `$ conda create --name ATOC_4500_Python_env --file ATOC_4500_env.txt`
 - Once you have created the environment for the first time you can now use the following commands to start up Jupyter Lab with the class environment: <br>
-  `$ conda activate /opt/anaconda3/envs/ATOC_4500_Python_env` #you may have a different path, check with `$ conda info --envs` <br>
-  `$ jupyter lab`
+  `$ conda activate ATOC_4500_Python_env` #you can check your availible environments with `$ conda info --envs` <br>
+  `$ jupyter lab` #this will open up jupyter lab in your browser 
