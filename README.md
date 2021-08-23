@@ -6,6 +6,8 @@ Professor Alexandra Jahn and teaching assistant Chris Wyburn-Powell
 To use the tutorials:
 - Fork the repo or download the notebooks locally
 - Create an environment locally from ATOC_4500_env.txt with the following command: <br>
+  `$ touch ATOC_4500_env.txt`
+  `$ curl https://raw.githubusercontent.com/chrisrwp/ATOC_4500/main/ATOC_4500_env.txt > ATOC_4500_env.txt`
   `$ conda create --name ATOC_4500_Python_env --file ATOC_4500_env.txt`
 - Once you have created the environment for the first time you can now use the following commands to start up Jupyter Lab with the class environment: <br>
   `$ conda activate ATOC_4500_Python_env` #you can check your availible environments with `$ conda info --envs` <br>
